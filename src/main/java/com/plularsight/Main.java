@@ -12,11 +12,10 @@ public class Main {
 
       // style: pass everything through the constructor and
         // let super(...) on each child push it up to Vehicle.
-        // -------------------------------------------------------------
+
         Car familyCar     = new Car("Blue", 5, 15, 14);
         SemiTruck bigRig  = new SemiTruck("White", 2, 5000, 300);
         Hovercraft skimmer = new Hovercraft("Silver", 4, 100, 80);
-
 
         // Verify values came through. Notice we call getters that live
         // on Vehicle even though the instances are children — that's
